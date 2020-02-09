@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+mqtt:
+  host: tcp://127.0.0.1:1883
+  clientinid: mqttinId
+  clientoutid: mqttoutid
+  topic: virus
+  qoslevel: 1
+  #MQTT-认证
+  username: cx
+  password: cx
+  # 10s
+  timeout: 10000
+  #20s
+  keepalive: 20
